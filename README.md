@@ -49,7 +49,6 @@ The `Vault` contract acts as a vault for storing ERC-20 tokens securely. It impl
    - Allows users to withdraw ERC-20 tokens from the vault by burning shares.
    - It calculates the amount of tokens to be withdrawn based on the number of shares burned.
 
-### **State Variables**
 - **`token`**: Stores the address of the ERC-20 token that the vault holds.
 - **`totalSupply`**: Tracks the total number of shares in the vault.
 - **`balanceOf`**: A mapping that records the number of shares held by each user.
